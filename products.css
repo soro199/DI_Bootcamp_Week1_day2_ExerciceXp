@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* style du menu*/
+nav {
+	padding: 5px 0;
+	background-color: black;
+	width: 100%;
+    text-align: end;
+}
+i{
+	color: white;
+	position: absolute;
+	top: 10px;
+    left: 20px;
+	size: 25px;
+}
+a {
+    display: inline;
+	position: relative;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 30px;
+	padding-top: 10px;
+} 
+/* Style elements products.html*/
+body {
+  background: url("images/fond_site.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 10px;
+}
+article {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 16px -15px 28px -8px rgba(31, 109, 201, 0.68);
+  -webkit-box-shadow: 16px -15px 28px -8px rgba(31, 109, 201, 0.68);
+  -moz-box-shadow: 16px -15px 28px -8px rgba(31, 109, 201, 0.68);
+}
+img {
+  height: 250px;
+  width: 200px;
+  margin: 12px;
+}
+.new{
+  position: relative;
+  background-color: green;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  top: 0;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+}
+.cart {
+  display: block;
+  padding: 10px;
+  border: 1x solid black;
+  box-shadow: 10px 3px 15px -3px rgba(0,0,0,0.53);
+  -webkit-box-shadow: 10px 3px 15px -3px rgba(0,0,0,0.53);
+  -moz-box-shadow: 10px 3px 15px -3px rgba(0,0,0,0.53);
+  width: 80%;
+  margin: 0 auto;
+}
+img:hover ~ .cart,
+.cart:hover{
+    background: rgba(1, 129, 50, 0.664);
+}
+h2 {
+  font-family: fantasy;
+  font-size: 2em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  text-align: center;
+  -moz-box-shadow: 4px 4px 5px #888888;
+  -ms-box-shadow: 4px 4px 5px #888888;
+  -webkit-box-shadow: 4px 4px 5px #888888;
+  -o-box-shadow: 4px 4px 5px #888888;
+  box-shadow: 4px 4px 5px #888888;
+  margin: 10px;
+}

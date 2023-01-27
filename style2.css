@@ -1,0 +1,25 @@
+section{
+	background-image: url("images/bg.png");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+	height: 90vh;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    margin: 10px;
+    font-size: 5.5rem;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+article{
+    padding: 10%;
+}
